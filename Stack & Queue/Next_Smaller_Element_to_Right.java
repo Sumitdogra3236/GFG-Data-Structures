@@ -1,3 +1,30 @@
+// Input:  arr[] = {4, 8, 5, 2, 25}
+// Output:         {2, 5, 2, -1, -1}
+
+// public static int[] solve(int[] arr){
+//    int nser[] = new int[arr.length];
+//    nser[arr.length-1] = -1;
+//    Stack<Integer> st = new Stack<>();
+   
+//    st.push(arr[arr.length-1]);
+   
+//    for(int i = arr.length-2; i >= 0; i--){
+//        while(st.size() > 0 && arr[i] < st.peek()){
+//            st.pop();
+//        }
+//        if(st.size() == 0){
+//            nser[i] = -1;
+//        }
+//        else{
+//            nser[i] = st.peek();
+//        }
+//        st.push(arr[i]);
+//    }
+   
+//    return nser;
+//  }
+
+
 import java.io.*;
 import java.util.*;
 
